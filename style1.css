@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    text-align: center;
+    font-size: 30px;
+    /* background-image: url('imb.png'); */
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+.fields{
+    color:darkblue;
+    text-align: center;
+    border:5px solid;
+    border-color:black; 
+}
+.fields:hover{
+    background-color: white;
+}
+.sub{
+    padding: 5px;
+}
+/* .header1{
+    border-bottom: 1px solid black;
+    background-color: aqua;
+    text-size-adjust: fixed;
+
+} */
+
+label{
+    font-size: larger;
+    
+}
+.line1{
+    width: 3px;
+    background-color: black;
+    font-weight: solid;
+    height: 2500px;
+    position:absolute;
+    left: 7%;
+    bottom:0.1%;
+}
+.line2{
+    width: 3px;
+    background-color: black;
+    font-weight: solid;
+    height: 2500px;
+    position:absolute;
+    bottom:0.1%;
+    right: 10%;
+}
+.sub{
+    position:absolute;
+    right:10px;
+    left:10px;
+    bottom:7px;
+    top:90px;
+
+}
+#navbar{
+    display:flex;
+    align-items: center;
+}
+#navbar{
+    position:relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color:white;
+    display:block;
+    padding:3px 22px;
+    border: radius 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: aqua;
+   
+}
+.popup{
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:red;
+}
+.popup img{
+    width:100px;
+    height:100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#pop{
+    display: none;
+}
+.popup button{
+    background-color:gray;
+}
+.popup button:hover{
+    color:green;
+    background-color: greenyellow;
+}

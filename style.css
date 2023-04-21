@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#fff;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000;
+}
+.container{
+    height:100vh;
+    width: 100vw;
+    position:relative;
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: grey;
+}
+.container::before{
+    content:'';
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    background: linear-gradient(#08ffe6,#fcd200);
+    transform: translate(-490px,-150px);
+}
+.container::after{
+    content:'';
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    background: linear-gradient(#fcd200,#fc002e);
+    transform: translate(490px,170px);
+}
+.container .ball-1{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #04f504;
+    transform: translate(250px,500px);
+    position: absolute;
+}
+.container .ball-2{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #08e2ff;
+    transform: translate(180px,-430px);
+    position: absolute;
+}
+.container .ball-3{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ffc404;
+    transform: translate(190px,410px);
+    position: absolute;
+}
+.container .box{
+    height:86vh;
+    width: 75%;
+    padding: 0,20px;
+    background: rgba(92, 95, 233, 0.315);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
+}
+#navbar{
+    display:flex;
+    align-items: center;
+}
+#navbar{
+    position:relative;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+}
+#navbar::before{
+    content:"";
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color:white;
+    display:block;
+    padding:3px 22px;
+    border: radius 20px;
+    text-decoration: none;
+    font-size: 45px;
+}
+#navbar ul li a:hover{
+    background-color: blue;
+   
+}
+.section-1 {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+}
+.section-1 p{
+    color:white;
+    font-size: 30px;
+}
+.section-1 p:hover{
+    background-color: lawngreen;
+}
+.li{
+    font-size: 20px;
+}

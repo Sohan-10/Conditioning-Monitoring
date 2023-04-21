@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+<head>   
+<title>MONITORING OF INDUCTION MOTOR</title>
+<link rel="stylesheet" href="./style1.css">
+</head>  
+<body>
+    <div class="form">
+        <div class="container"></div>
+        <div class="box"></div>
+        <nav id="navbar">
+            <ul>
+                <li cla ss="item"><a href="main.html">Home</a></li>
+                <li class="item"><a href="faultanalysis.html">Monitoring</a></li>
+                <li class="item"><a href="about.html">About</a></li>
+            </ul>
+            </nav>
+                <div class="box"></div>
+    
+    
+    
+    <section id="fault analysis">
+        <div class="sub">
+        <h2>MOTOR ID:1</h2>
+    
+        <div class="fields">
+            <label>Temperature(°C): </label>
+            <label id="temp"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="fields">
+            <label>Voltage Phase1(V): </label>
+            <label id="volt1"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="fields">
+            <label>Voltage Phase2(V): </label>
+            <label id="volt2"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="fields">
+            <label>Voltage Phase3(V): </label>
+            <label id="volt3"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="fields">
+            <label>Current(A): </label>
+            <label id="current"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="fields">
+            <label>Power(W): </label>
+            <label id="power"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+             <div class="fields">
+            <label>Frequency(Hz): </label>
+            <label id="frequency"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="fields">
+            <label>Power factor: </label>
+            <label id="pf"></label>
+            <!-- <img src="" alt="warning" style="display: none;"> -->
+        </div>
+        <div class="popup" id="pop">
+            <img src="warn.jpg">
+            <h2 id="error-msg">Single Phase Fault</h2>
+            <button onclick="document.getElementById('pop').style.display='none'">OK</button>
+        </div>
+
+    <!-- <span class="line1"></span>
+    <span class="line2"></span>
+    -->
+</section>
+  
+
+
+</div>
+
+
+    <script src="index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
