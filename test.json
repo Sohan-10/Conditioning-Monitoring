@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "href": "/iot/v1/things/0b877550-406e-4db7-bf32-bc1193860a62/properties/8ec2ac13-c249-48cc-845a-d0809d1c3e59",
+            "id": "8ec2ac13-c249-48cc-845a-d0809d1c3e59",
+            "name": "temp",
+            "permission": "READ_ONLY",
+            "thing_id": "0b877550-406e-4db7-bf32-bc1193860a62",
+            "type": "FLOAT",
+            "update_strategy": "ON_CHANGE",
+            "created_at": "2023-04-28T04:07:16.491Z",
+            "last_value": 31.6875,
+            "persist": true,
+            "tag": 2,
+            "thing_name": "project",
+            "update_parameter": 0,
+            "updated_at": "2023-04-28T04:07:16.491Z",
+            "value_updated_at": "2023-04-28T07:42:34.660Z",
+            "variable_name": "temp"
+        },
+        {
+            "href": "/iot/v1/things/0b877550-406e-4db7-bf32-bc1193860a62/properties/ad58eebc-c431-4456-8e02-9576313be934",
+            "id": "ad58eebc-c431-4456-8e02-9576313be934",
+            "name": "counter",
+            "permission": "READ_ONLY",
+            "thing_id": "0b877550-406e-4db7-bf32-bc1193860a62",
+            "type": "INT",
+            "update_strategy": "ON_CHANGE",
+            "created_at": "2023-04-27T18:29:41.742Z",
+            "deleted_at": "2023-04-28T04:06:55.657Z",
+            "last_value": 369,
+            "persist": true,
+            "tag": 1,
+            "thing_name": "project",
+            "update_parameter": 0,
+            "updated_at": "2023-04-27T18:29:41.742Z",
+            "value_updated_at": "2023-04-27T22:13:04.421Z",
+            "variable_name": "counter"
+        },
+        {
+            "href": "/iot/v1/things/0b877550-406e-4db7-bf32-bc1193860a62/properties/3b688adb-a331-41fa-96a7-da09397b22d0",
+            "id": "3b688adb-a331-41fa-96a7-da09397b22d0",
+            "name": "count",
+            "permission": "READ_ONLY",
+            "thing_id": "0b877550-406e-4db7-bf32-bc1193860a62",
+            "type": "INT",
+            "update_strategy": "ON_CHANGE",
+            "created_at": "2023-04-28T04:59:28.250Z",
+            "last_value": 463,
+            "persist": true,
+            "tag": 3,
+            "thing_name": "project",
+            "update_parameter": 0,
+            "updated_at": "2023-04-28T04:59:28.250Z",
+            "value_updated_at": "2023-04-28T07:42:34.660Z",
+            "variable_name": "count"
+        }
+    ]
+}
