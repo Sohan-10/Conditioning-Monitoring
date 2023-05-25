@@ -8,20 +8,24 @@ body {
     text-align: center;
     font-size: 30px;
     /* background-image: url('imb.png'); */
-    background-color: gray;
+    background-color: #f4abaa;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: 100% 100%;
 }
-.fields{
+/* .fields{
     color:darkblue;
     text-align: center;
     border:5px solid;
     border-color:black; 
+} */
+.fields{
+    color: blue;
 }
+/* }
 .fields:hover{
-    background-color: white;
-}
+    color: black;
+} */
 .sub{
     padding: 5px;
 }
