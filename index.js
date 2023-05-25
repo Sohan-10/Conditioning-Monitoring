@@ -42,7 +42,7 @@ function checkFields() {
      * @param flash("ID OF THE <label id="temp"></label>")
      */
 
-    let temp = document.getElementById('temp').textContent;
+    let temp = document.getElementById('Temp').textContent;
     if (temp > BORDER_TEMP_VALUE) {
         flash('OVERLOADING');
     }
@@ -50,7 +50,7 @@ function checkFields() {
     let volt1 = document.getElementById('volt1').textContent;
     let volt2 = document.getElementById('volt2').textContent;
     let volt3 = document.getElementById('volt3').textContent;
-    if (volt1 && volt2 && volt3 == BORDER_VOLT_VALUE) {
+    if (volt1 || volt2 || volt3 == BORDER_VOLT_VALUE) {
         flash('One Phase is Open');
     }
 
